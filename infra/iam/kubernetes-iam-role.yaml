@@ -1,0 +1,6 @@
+title: kubernetes-iam-role
+description: Kubernetes IAM Role to create clusterrolebindings etc.
+stage: GA
+includedPermissions:
+- container.clusterRoleBindings.create
+- container.clusterRoles.bind
